@@ -18,7 +18,6 @@ const  modelPromise = getModels();
 // -------------Api end----------------
 function App() {
 
-
   return (
     <>
     <Navbar></Navbar>
