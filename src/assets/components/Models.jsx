@@ -21,7 +21,7 @@ const Models = ({modelPromise}) => {
             
             {Models.map(model=> 
          
-         <ModelCard model={model}/>
+         <ModelCard key={model.id} model={model}/>
             )}
         </div>
 {/* --------map end--------- */}
